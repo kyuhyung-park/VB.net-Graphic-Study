@@ -3,12 +3,11 @@
     Dim pens(4) As Pen
     
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        pens(0) = New Pen(Color.Red)
-        pens(1) = New Pen(Color.OrangeRed)
-        pens(2) = New Pen(Color.MediumVioletRed)
-        pens(3) = New Pen(Color.PaleVioletRed)
-        pens(4) = New Pen(Color.DarkRed)
-
+        pens(0) = New Pen(Color.FromArgb(255, 219, 227))
+        pens(1) = New Pen(Color.FromArgb(255, 166, 180))
+        pens(2) = New Pen(Color.FromArgb(255, 122, 130))
+        pens(3) = New Pen(Color.FromArgb(255, 78, 85))
+        pens(4) = New Pen(Color.FromArgb(255, 1, 1))
     End Sub
 
     Dim dataQueue As New Queue()
